@@ -2,7 +2,7 @@ import json
 import base58
 
 # Load the JSON file containing the wallet's private key
-wallet_file = 'kopi.json'
+wallet_file = 'wallet.json'
 
 try:
     with open(wallet_file, 'r') as file:
